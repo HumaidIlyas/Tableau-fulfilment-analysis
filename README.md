@@ -23,11 +23,15 @@ The visualization project is presented as a series of pages, each focusing on a 
 
 ![Orders by Region and City](assets/orders_per_region_and_city.png)
 
-### Fulfilment Centre Performance
-- **Focus:** Analyzing performance across individual fulfillment centres.
+### **Fulfillment Centre Performance**
+- **Focus:** Analyzing order distribution across fulfillment centers while incorporating cuisine preferences.  
 - **Design Choices:**  
-  - **Comparative Layout:** Charts highlight variations in order volumes across different centres.
-  - **Clear Labels and Scales:** Numeric values and region codes are used for clarity.
+  - **Stacked Bar Chart:** Shows total orders per fulfillment center, segmented by cuisine type (Continental, Indian, Italian, Thai) to provide a layered comparison.  
+  - **Comparative Layout:** The centers are sorted by total order volume, making it easy to identify high-performing centers.  
+  - **Color-Coded Categories:** Each cuisine is color-coded for quick differentiation.  
+  - **Clear Labels and Scales:** Numeric values and region codes are used for clarity.  
+  - **Scalability:** The visualization maintains clarity despite a large number of fulfillment centers by using horizontal bars and a clean axis layout.  
+
 
  ![Orders per Centre](assets/orders_per_centre_wrt_cuisine.png)  
 
