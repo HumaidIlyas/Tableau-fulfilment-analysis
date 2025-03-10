@@ -12,13 +12,15 @@ The visualization project is presented as a series of pages, each focusing on a 
 
 ## Visualization Walkthrough
 
+![Orders by Region](assets/orders_per_region.png)
+
 ### Regional and City Analysis
 - **Focus:** Identifying which regions and cities generate the most orders.
 - **Design Choices:**  
   - **Bar and Pie Charts:** A bar chart ranks regions by order volume, while a pie chart presents the percentage share of each region.
   - **Text Annotations:** Storytelling elements explain the narrative, making the insights easily digestible.
 
-![Orders by Region](assets/orders_per_region.png)
+
 ![Orders by Region and City](assets/orders_per_region_and_city.png)
 
 ### Fulfilment Centre Performance
